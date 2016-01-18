@@ -90,6 +90,8 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -205,17 +207,6 @@
 <text x="68.70743125" y="44.506440625" size="0.6096" layer="21" rot="R90">OSC_In</text>
 <text x="68.817059375" y="41.94693125" size="0.6096" layer="21" rot="R90">PC14</text>
 <text x="68.886578125" y="39.5739125" size="0.6096" layer="21" rot="R90">GND</text>
-<text x="60.669375" y="55.895775" size="0.6096" layer="21" rot="R270">+3V3</text>
-<text x="58.43714375" y="49.027765625" size="0.6096" layer="21" rot="R90">GND</text>
-<text x="54.3233625" y="48.910771875" size="0.6096" layer="21" rot="R90">MDC</text>
-<text x="49.90355625" y="49.97800625" size="0.6096" layer="21">CRS_DV</text>
-<text x="49.057509375" y="48.735565625" size="0.6096" layer="21" rot="R90">RXD1</text>
-<text x="45.18385625" y="49.946609375" size="0.6096" layer="21">TXD0</text>
-<text x="42.317315625" y="54.192425" size="0.6096" layer="21" rot="R90">TXD1</text>
-<text x="47.78166875" y="57.04088125" size="0.6096" layer="21" rot="R90">TXEN</text>
-<text x="49.248059375" y="57.02109375" size="0.6096" layer="21" rot="R90">RXD0</text>
-<text x="49.75428125" y="57.14331875" size="0.6096" layer="21">REFCLK</text>
-<text x="53.208403125" y="57.170090625" size="0.6096" layer="121">MDIO</text>
 <text x="34.646109375" y="44.86618125" size="1.016" layer="22" rot="MR0">PD12</text>
 <text x="34.509075" y="47.57773125" size="1.016" layer="22" rot="MR0">PD9</text>
 <text x="34.722815625" y="42.793640625" size="1.016" layer="22" rot="MR0">PD14</text>
@@ -232,17 +223,6 @@
 <text x="44.25465" y="42.22236875" size="1.016" layer="22" rot="MR0">PD13</text>
 <text x="44.057340625" y="45.24105625" size="1.016" layer="22" rot="MR0">PD11</text>
 <text x="43.46544375" y="47.33244375" size="1.016" layer="22" rot="MR0">PD8</text>
-<text x="42.112946875" y="58.0587875" size="1.016" layer="22" rot="MR180">TXD1</text>
-<text x="44.69881875" y="50.670003125" size="1.016" layer="22" rot="MR180">TXD0</text>
-<text x="48.39294375" y="47.430309375" size="1.016" layer="22" rot="MR90">RXD1</text>
-<text x="50.921996875" y="46.46406875" size="1.016" layer="22" rot="MR90">CRS_DV</text>
-<text x="53.50786875" y="47.771328125" size="1.016" layer="22" rot="MR90">MDC</text>
-<text x="58.460309375" y="51.2390125" size="1.016" layer="22" rot="MR270">GND</text>
-<text x="59.091678125" y="51.160071875" size="1.016" layer="22" rot="MR180">+3V3</text>
-<text x="56.44784375" y="56.98045625" size="1.016" layer="22" rot="MR0">MDIO</text>
-<text x="49.7396" y="59.03236875" size="1.016" layer="22" rot="MR180">REFCLK</text>
-<text x="49.3879375" y="60.58186875" size="1.016" layer="22" rot="MR270">RXD0</text>
-<text x="48.089134375" y="60.499675" size="1.016" layer="22" rot="MR270">TXEN</text>
 <text x="60.84765625" y="46.89838125" size="1.016" layer="22" rot="MR90">PH1</text>
 <text x="61.354384375" y="43.88276875" size="1.016" layer="22" rot="MR90">PC15</text>
 <text x="61.41875" y="40.61033125" size="1.016" layer="22" rot="MR90">PC13</text>
@@ -274,8 +254,6 @@
 <text x="68.0886125" y="35.928478125" size="1.016" layer="22" rot="MR180">GND</text>
 <text x="68.3451" y="38.23688125" size="1.016" layer="22" rot="MR180">GND</text>
 <text x="68.0854375" y="48.62388125" size="1.016" layer="22" rot="MR180">GND</text>
-<text x="57.0397625" y="56.368821875" size="1.016" layer="22" rot="MR90">GND</text>
-<text x="60.737853125" y="53.31561875" size="0.6096" layer="21" rot="R270">+3V3</text>
 <text x="61.48986875" y="39.488034375" size="0.6096" layer="21" rot="R90">+3V3</text>
 <text x="68.886578125" y="37.11120625" size="0.6096" layer="21" rot="R90">GND</text>
 <text x="68.957596875" y="34.790584375" size="0.6096" layer="21" rot="R90">GND</text>
@@ -2332,7 +2310,6 @@ Made by Sam Deghuee
 <rectangle x1="62.1411" y1="77.7367" x2="62.1919" y2="77.7621" layer="200"/>
 <rectangle x1="62.3443" y1="77.7367" x2="62.4205" y2="77.7621" layer="200"/>
 <rectangle x1="62.6237" y1="77.7367" x2="63.7159" y2="77.7621" layer="200"/>
-<rectangle x1="0" y1="0.0508" x2="25.0952" y2="16.7132" layer="121"/>
 </plain>
 <libraries>
 <library name="SparkFun-Passives">
@@ -3999,6 +3976,68 @@ W = angled&lt;p&gt;
 <wire x1="-4.5" y1="5.55" x2="-4.5" y2="7.6" width="0.127" layer="20"/>
 <wire x1="-4.15" y1="7.25" x2="-4.5" y2="7.6" width="0.127" layer="20" curve="-90"/>
 </package>
+<package name="1X07">
+<wire x1="14.605" y1="1.27" x2="15.875" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="15.875" y1="1.27" x2="16.51" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="16.51" y1="-0.635" x2="15.875" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="11.43" y1="0.635" x2="12.065" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="12.065" y1="1.27" x2="13.335" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="13.335" y1="1.27" x2="13.97" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="13.97" y1="-0.635" x2="13.335" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="13.335" y1="-1.27" x2="12.065" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="12.065" y1="-1.27" x2="11.43" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="14.605" y1="1.27" x2="13.97" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="13.97" y1="-0.635" x2="14.605" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="15.875" y1="-1.27" x2="14.605" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="8.255" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="8.255" y1="1.27" x2="8.89" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="-0.635" x2="8.255" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="0.635" x2="9.525" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="9.525" y1="1.27" x2="10.795" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="10.795" y1="1.27" x2="11.43" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="11.43" y1="-0.635" x2="10.795" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="10.795" y1="-1.27" x2="9.525" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="9.525" y1="-1.27" x2="8.89" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="8.255" y1="-1.27" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="16.51" y1="0.635" x2="16.51" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="6" x="12.7" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="7" x="15.24" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="14.986" y1="-0.254" x2="15.494" y2="0.254" layer="51"/>
+<rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
+<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
+<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -4254,6 +4293,7 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <attribute name="OC_FARNELL" value="unknown" x="64.81884375" y="39.273040625" size="1.778" layer="27" rot="SR270" display="off"/>
 </element>
 <element name="U$8" library="Connectors" package="HSC8-60PINOUUT" value="HSC8PART-60" x="22.163659375" y="3.221278125"/>
+<element name="JP1" library="Connectors" package="1X07" value="" x="18.5674" y="-1.3208"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -4397,6 +4437,7 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <contactref element="U$8" pad="T16"/>
 <contactref element="U$8" pad="T17"/>
 <contactref element="U$8" pad="T18"/>
+<contactref element="JP1" pad="5"/>
 <wire x1="60.523996875" y1="44.592315625" x2="66.08884375" y2="48.163040625" width="0" layer="19" extent="16-16"/>
 <wire x1="60.517925" y1="42.547921875" x2="60.523996875" y2="44.592315625" width="0" layer="19" extent="16-16"/>
 <wire x1="59.06884375" y1="42.773040625" x2="60.517925" y2="42.547921875" width="0" layer="19" extent="1-16"/>
@@ -4442,6 +4483,7 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <wire x1="32.563659375" y1="5.621278125" x2="32.530896875" y2="5.57961875" width="0" layer="19" extent="1-1"/>
 <wire x1="32.08315" y1="5.621278125" x2="31.793940625" y2="5.57961875" width="0" layer="19" extent="1-1"/>
 <wire x1="30.963659375" y1="5.621278125" x2="31.618478125" y2="5.614721875" width="0" layer="19" extent="1-1"/>
+<wire x1="28.7274" y1="-1.3208" x2="30.963659375" y2="5.621278125" width="0" layer="19" extent="1-1"/>
 <wire x1="19.160178125" y1="83.494690625" x2="24.104303125" y2="66.1756375" width="0" layer="19" extent="1-1"/>
 <wire x1="19.160178125" y1="86.092190625" x2="19.160178125" y2="83.494690625" width="0" layer="19" extent="1-1"/>
 <wire x1="19.160178125" y1="88.092190625" x2="19.160178125" y2="86.092190625" width="0" layer="19" extent="1-1"/>
@@ -4600,9 +4642,6 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <wire x1="26.295171875" y1="44.415834375" x2="23.539984375" y2="44.415834375" width="0.254" layer="1"/>
 <wire x1="23.539984375" y1="44.415834375" x2="23.463225" y2="44.49259375" width="0.254" layer="1"/>
 <wire x1="58.826584375" y1="40.50235625" x2="58.04573125" y2="40.579140625" width="0.254" layer="16"/>
-<wire x1="61.338740625" y1="50.91414375" x2="61.338740625" y2="48.244425" width="0.254" layer="16"/>
-<wire x1="61.338740625" y1="48.244425" x2="59.433246875" y2="46.8201875" width="0.254" layer="16"/>
-<wire x1="59.433246875" y1="46.8201875" x2="58.20686875" y2="46.8201875" width="0.254" layer="16"/>
 <wire x1="32.385240625" y1="51.0304625" x2="32.1953625" y2="51.220340625" width="0.254" layer="1"/>
 <wire x1="56.024903125" y1="22.8839" x2="40.876546875" y2="22.8839" width="0.254" layer="16"/>
 <wire x1="40.876546875" y1="22.8839" x2="37.081840625" y2="19.18805" width="0.254" layer="16"/>
@@ -4662,6 +4701,7 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <wire x1="56.265140625" y1="45.506665625" x2="51.802028125" y2="45.506665625" width="0.6096" layer="1"/>
 <wire x1="51.802028125" y1="45.506665625" x2="50.23609375" y2="43.94073125" width="0.6096" layer="1"/>
 <wire x1="51.853215625" y1="44.171003125" x2="57.449771875" y2="44.171003125" width="0.254" layer="1"/>
+<contactref element="JP1" pad="6"/>
 <wire x1="58.826584375" y1="40.50235625" x2="59.0491375" y2="38.77999375" width="0" layer="19" extent="16-16"/>
 <wire x1="51.802028125" y1="45.506665625" x2="51.853215625" y2="44.171003125" width="0" layer="19" extent="1-1"/>
 <wire x1="59.06884375" y1="35.773040625" x2="59.06884375" y2="38.273040625" width="0" layer="19" extent="1-1"/>
@@ -4670,6 +4710,7 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <wire x1="29.261375" y1="26.8555625" x2="31.071690625" y2="24.08821875" width="0" layer="19" extent="1-16"/>
 <wire x1="43.546240625" y1="32.708290625" x2="36.54884375" y2="30.383040625" width="0" layer="19" extent="1-1"/>
 <wire x1="45.031253125" y1="33.023784375" x2="43.56884375" y2="33.273040625" width="0" layer="19" extent="1-1"/>
+<wire x1="31.2674" y1="-1.3208" x2="36.677084375" y2="17.299571875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="U$1" pad="P94"/>
@@ -5501,8 +5542,10 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <signal name="PD10">
 <contactref element="U$1" pad="P57"/>
 </signal>
-<signal name="PB10">
+<signal name="USART3_TX">
 <contactref element="U$1" pad="P47"/>
+<contactref element="JP1" pad="2"/>
+<wire x1="21.1074" y1="-1.3208" x2="46.81884375" y2="47.023040625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB14">
 <contactref element="U$1" pad="P53"/>
@@ -5533,20 +5576,13 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <signal name="RXD1">
 <contactref element="U$1" pad="P34"/>
 <wire x1="53.31884375" y1="47.023040625" x2="53.304390625" y2="47.03749375" width="0.254" layer="1"/>
-<wire x1="53.304390625" y1="47.03749375" x2="53.304390625" y2="48.482271875" width="0" layer="19" extent="1-16"/>
-<wire x1="53.304390625" y1="48.482271875" x2="49.1608375" y2="52.625825" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="RXD0">
 <contactref element="U$1" pad="P33"/>
 <wire x1="53.81884375" y1="47.023040625" x2="53.823996875" y2="47.02819375" width="0.254" layer="1"/>
-<wire x1="53.823996875" y1="47.02819375" x2="53.823996875" y2="48.710896875" width="0" layer="19" extent="1-16"/>
-<wire x1="53.823996875" y1="48.710896875" x2="50.103584375" y2="52.431309375" width="0" layer="19" extent="1-16"/>
-<wire x1="50.103584375" y1="52.431309375" x2="50.103584375" y2="53.096384375" width="0" layer="19" extent="1-16"/>
-<wire x1="50.103584375" y1="53.096384375" x2="48.895584375" y2="54.304384375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="CRS_DV">
 <contactref element="U$1" pad="P32"/>
-<wire x1="54.31884375" y1="49.742565625" x2="54.31884375" y2="47.023040625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="PA5">
 <contactref element="U$1" pad="P30"/>
@@ -5585,6 +5621,20 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <wire x1="67.89940625" y1="38.218846875" x2="67.89940625" y2="18.643903125" width="0.254" layer="16"/>
 <wire x1="67.89940625" y1="18.643903125" x2="62.163659375" y2="12.90815625" width="0.254" layer="16"/>
 <wire x1="62.163659375" y1="12.90815625" x2="62.163659375" y2="5.621278125" width="0.254" layer="16"/>
+</signal>
+<signal name="USART3_RX">
+<contactref element="U$1" pad="P48"/>
+<contactref element="JP1" pad="3"/>
+<wire x1="23.6474" y1="-1.3208" x2="46.31884375" y2="47.023040625" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CFG">
+<contactref element="JP1" pad="1"/>
+</signal>
+<signal name="RST_ETH">
+<contactref element="JP1" pad="4"/>
+</signal>
+<signal name="VDD_ETH">
+<contactref element="JP1" pad="7"/>
 </signal>
 </signals>
 <errors>
