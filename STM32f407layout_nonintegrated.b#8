@@ -5412,7 +5412,7 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <signal name="PD10">
 <contactref element="U$1" pad="P57"/>
 </signal>
-<signal name="PB10">
+<signal name="USART3_TX">
 <contactref element="U$1" pad="P47"/>
 </signal>
 <signal name="PB14">
@@ -5489,6 +5489,9 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <wire x1="67.89940625" y1="38.218846875" x2="67.89940625" y2="18.643903125" width="0.254" layer="16"/>
 <wire x1="67.89940625" y1="18.643903125" x2="62.163659375" y2="12.90815625" width="0.254" layer="16"/>
 <wire x1="62.163659375" y1="12.90815625" x2="62.163659375" y2="5.621278125" width="0.254" layer="16"/>
+</signal>
+<signal name="USART3_RX">
+<contactref element="U$1" pad="P48"/>
 </signal>
 </signals>
 <errors>
