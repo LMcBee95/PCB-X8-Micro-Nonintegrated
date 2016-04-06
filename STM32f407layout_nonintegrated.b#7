@@ -259,7 +259,7 @@
 <text x="68.957596875" y="34.790584375" size="0.6096" layer="21" rot="R90">GND</text>
 <text x="22.156928125" y="56.9015375" size="1.778" layer="21" rot="SR270">NRST</text>
 <text x="22.161703125" y="47.1464375" size="1.778" layer="21" rot="SR270">BOOT</text>
-<text x="58.36510625" y="9.14125" size="1.016" layer="121">Purdue ROV 2015/16
+<text x="57.6840125" y="62.0414875" size="1.016" layer="121">Purdue ROV 2015/16
 Made by Sam Deghuee 
 and Luke McBee</text>
 <rectangle x1="57.995009375" y1="51.80310625" x2="63.151209375" y2="51.82850625" layer="200"/>
@@ -4244,10 +4244,10 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 </element>
 <element name="R1" library="SparkFun-Passives" package="0603-RES" value="10k" x="30.24184375" y="42.22893125" rot="R270"/>
 <element name="R10" library="SparkFun-Passives" package="0603-RES" value="4.7K" x="63.43028125" y="24.979421875" rot="MR180"/>
-<element name="R11" library="SparkFun-Passives" package="0603-RES" value="83" x="28.542509375" y="66.211884375"/>
-<element name="R12" library="SparkFun-Passives" package="0603-RES" value="83" x="28.55059375" y="64.156609375"/>
-<element name="R13" library="SparkFun-Passives" package="0603-RES" value="83" x="28.552184375" y="62.11506875"/>
-<element name="R14" library="SparkFun-Passives" package="0603-RES" value="83" x="28.53085" y="60.0696"/>
+<element name="R11" library="SparkFun-Passives" package="0603-RES" value="200" x="28.542509375" y="66.211884375"/>
+<element name="R12" library="SparkFun-Passives" package="0603-RES" value="200" x="28.55059375" y="64.156609375"/>
+<element name="R13" library="SparkFun-Passives" package="0603-RES" value="200" x="28.552184375" y="62.11506875"/>
+<element name="R14" library="SparkFun-Passives" package="0603-RES" value="200" x="28.53085" y="60.0696"/>
 <element name="R2" library="SparkFun-Passives" package="0603-RES" value="10k" x="30.16184375" y="51.705484375" rot="R90"/>
 <element name="R3" library="SparkFun-Passives" package="0603-RES" value="4.7K" x="35.827084375" y="17.299571875" rot="MR180"/>
 <element name="R4" library="SparkFun-Passives" package="0603-RES" value="4.7K" x="28.411375" y="18.2559375" rot="MR180"/>

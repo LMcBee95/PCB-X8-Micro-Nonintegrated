@@ -259,9 +259,9 @@
 <text x="68.957596875" y="34.790584375" size="0.6096" layer="21" rot="R90">GND</text>
 <text x="22.156928125" y="56.9015375" size="1.778" layer="21" rot="SR270">NRST</text>
 <text x="22.161703125" y="47.1464375" size="1.778" layer="21" rot="SR270">BOOT</text>
-<text x="58.36510625" y="9.14125" size="1.016" layer="121">Purdue ROV 2015/16
+<text x="57.6840125" y="62.0414875" size="1.016" layer="121">Purdue ROV 2015/16
 Made by Sam Deghuee 
-          and Luke McBee</text>
+and Luke McBee</text>
 <rectangle x1="57.995009375" y1="51.80310625" x2="63.151209375" y2="51.82850625" layer="200"/>
 <rectangle x1="63.430609375" y1="51.80310625" x2="63.481409375" y2="51.82850625" layer="200"/>
 <rectangle x1="64.421209375" y1="51.80310625" x2="64.700609375" y2="51.82850625" layer="200"/>

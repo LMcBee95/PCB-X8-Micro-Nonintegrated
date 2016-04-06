@@ -4953,12 +4953,12 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <via x="26.166109375" y="35.60463125" extent="1-16" drill="0.254"/>
 <via x="42.0186875" y="35.404221875" extent="1-16" drill="0.254"/>
 <wire x1="33.2607875" y1="35.60138125" x2="34.681846875" y2="35.60138125" width="0.2032" layer="16"/>
-<wire x1="34.681846875" y1="35.60138125" x2="35.694721875" y2="36.605209375" width="0.2032" layer="16"/>
-<wire x1="35.694721875" y1="36.605209375" x2="40.788484375" y2="36.605209375" width="0.2032" layer="16"/>
+<wire x1="34.681846875" y1="35.60138125" x2="35.675253125" y2="36.57558125" width="0.2032" layer="16"/>
+<wire x1="35.675253125" y1="36.57558125" x2="40.769015625" y2="36.57558125" width="0.2032" layer="16"/>
 <wire x1="43.56884375" y1="35.773040625" x2="42.732465625" y2="35.773040625" width="0.2032" layer="1"/>
 <wire x1="42.732465625" y1="35.773040625" x2="42.0186875" y2="35.404221875" width="0.2032" layer="1"/>
 <wire x1="42.0186875" y1="35.404221875" x2="41.9281875" y2="35.41701875" width="0.2032" layer="16"/>
-<wire x1="41.9281875" y1="35.41701875" x2="40.788484375" y2="36.605209375" width="0.2032" layer="16"/>
+<wire x1="41.9281875" y1="35.41701875" x2="40.769015625" y2="36.57558125" width="0.2032" layer="16"/>
 <wire x1="25.11045625" y1="35.5667" x2="26.166109375" y2="35.5667" width="0.4064" layer="1"/>
 <wire x1="26.166109375" y1="35.5667" x2="26.166109375" y2="35.60463125" width="0.4064" layer="1"/>
 <wire x1="33.2607875" y1="35.60138125" x2="33.230359375" y2="35.60463125" width="0.2032" layer="16"/>
@@ -5047,7 +5047,25 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <wire x1="27.504975" y1="58.66146875" x2="27.504975" y2="40.258465625" width="0.4064" layer="16"/>
 <wire x1="27.504975" y1="40.258465625" x2="24.8554" y2="37.608890625" width="0.4064" layer="16"/>
 <contactref element="U$1" pad="P68"/>
-<wire x1="27.504975" y1="40.258465625" x2="43.56884375" y2="36.773040625" width="0" layer="19" extent="1-16"/>
+<wire x1="27.049146875" y1="36.011384375" x2="27.049146875" y2="31.846184375" width="0.2032" layer="1"/>
+<wire x1="27.049146875" y1="31.846184375" x2="27.075425" y2="31.81990625" width="0.2032" layer="1"/>
+<wire x1="43.56884375" y1="36.773040625" x2="43.602453125" y2="36.73943125" width="0.2032" layer="1" curve="90"/>
+<wire x1="43.602453125" y1="36.73943125" x2="45.02685" y2="36.73943125" width="0.2032" layer="1"/>
+<via x="45.02685" y="36.73943125" extent="1-16" drill="0.6"/>
+<wire x1="45.02685" y1="36.73943125" x2="41.193290625" y2="36.73943125" width="0.2032" layer="16"/>
+<wire x1="41.193290625" y1="36.73943125" x2="41.062003125" y2="36.88595625" width="0.2032" layer="16"/>
+<wire x1="41.062003125" y1="36.88595625" x2="35.070796875" y2="36.88595625" width="0.2032" layer="16"/>
+<wire x1="35.070796875" y1="36.88595625" x2="34.4274625" y2="36.207065625" width="0.2032" layer="16"/>
+<wire x1="34.4274625" y1="36.207065625" x2="29.53220625" y2="36.207065625" width="0.2032" layer="16"/>
+<wire x1="29.53220625" y1="36.207065625" x2="28.13038125" y2="37.608890625" width="0.2032" layer="16"/>
+<wire x1="28.13038125" y1="37.608890625" x2="24.8554" y2="37.608890625" width="0.2032" layer="16"/>
+<contactref element="SV2" pad="13"/>
+<wire x1="39.08884375" y1="32.923040625" x2="39.111925" y2="32.923040625" width="0.2032" layer="1"/>
+<wire x1="39.111925" y1="32.923040625" x2="40.897528125" y2="34.70864375" width="0.2032" layer="1"/>
+<wire x1="40.897528125" y1="34.70864375" x2="40.897528125" y2="36.139609375" width="0.2032" layer="1"/>
+<wire x1="40.897528125" y1="36.139609375" x2="41.49735" y2="36.73943125" width="0.2032" layer="1"/>
+<wire x1="41.49735" y1="36.73943125" x2="43.535234375" y2="36.73943125" width="0.2032" layer="1"/>
+<wire x1="43.535234375" y1="36.73943125" x2="43.56884375" y2="36.773040625" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$58">
 <contactref element="D6" pad="C"/>
@@ -5276,12 +5294,6 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <wire x1="38.71084375" y1="46.794040625" x2="37.32684375" y2="48.178040625" width="0.2032" layer="1"/>
 <wire x1="37.32684375" y1="48.178040625" x2="36.56384375" y2="48.178040625" width="0.2032" layer="1"/>
 <wire x1="36.56384375" y1="48.178040625" x2="36.54884375" y2="48.163040625" width="0.2032" layer="1"/>
-</signal>
-<signal name="PA9">
-<contactref element="SV2" pad="13"/>
-<wire x1="41.72284375" y1="36.773040625" x2="40.82984375" y2="35.880040625" width="0.2032" layer="1"/>
-<wire x1="40.82984375" y1="35.880040625" x2="40.82984375" y2="34.664040625" width="0.2032" layer="1"/>
-<wire x1="40.82984375" y1="34.664040625" x2="39.08884375" y2="32.923040625" width="0.2032" layer="1"/>
 </signal>
 <signal name="PC7">
 <contactref element="SV2" pad="9"/>
@@ -5609,44 +5621,36 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <approved hash="18,29,f183d6d4edef4307"/>
 <approved hash="18,29,030e5ad3a9dfef8e"/>
 <approved hash="18,29,4b408ae4bda6ef07"/>
-<approved hash="18,29,30305229d229b030"/>
 <approved hash="18,29,105c4857c857905c"/>
-<approved hash="18,29,38811a989a98b881"/>
-<approved hash="18,29,48957e92fe92c895"/>
-<approved hash="18,29,5598779ff79fd598"/>
-<approved hash="18,29,0af6246fa46f8af6"/>
-<approved hash="18,29,25470cde8cdea547"/>
-<approved hash="18,29,bd5354d4d4d43d53"/>
-<approved hash="18,29,a05e59d9d9d9205e"/>
-<approved hash="18,29,02604ac58ac1c264"/>
 <approved hash="18,29,448a0cf04cf4048e"/>
+<approved hash="18,29,02604ac58ac1c264"/>
 <approved hash="18,29,a350ebb52bb16354"/>
 <approved hash="18,29,6125298b698f2121"/>
-<approved hash="18,29,4cd2727972794cd2"/>
-<approved hash="18,29,4aa371f671f64aa3"/>
-<approved hash="18,29,41f4795b795b41f4"/>
-<approved hash="18,29,4830778777874830"/>
 <approved hash="18,29,4f457ce87ce84f45"/>
+<approved hash="18,29,4cd2727972794cd2"/>
 <approved hash="18,29,50ef6e326e3250ef"/>
-<approved hash="18,29,44677bca7bca4467"/>
-<approved hash="18,29,5581751475145581"/>
-<approved hash="18,29,5bcd635063505bcd"/>
-<approved hash="18,29,595a66e166e1595a"/>
+<approved hash="18,29,4aa371f671f64aa3"/>
+<approved hash="18,29,4830778777874830"/>
 <approved hash="18,29,531e68a568a5531e"/>
 <approved hash="18,29,5e7c6dc36dc35e7c"/>
-<approved hash="18,29,31200e770e773120"/>
-<approved hash="18,29,272b647e647e272b"/>
-<approved hash="18,29,24b81a0f1a0f24b8"/>
+<approved hash="18,29,5581751475145581"/>
+<approved hash="18,29,3c0e039503953c0e"/>
+<approved hash="18,29,41f4795b795b41f4"/>
 <approved hash="18,29,3eb10c040c043eb1"/>
 <approved hash="18,29,399f01220122399f"/>
-<approved hash="18,29,3c0e039503953c0e"/>
+<approved hash="18,29,5bcd635063505bcd"/>
+<approved hash="18,29,31200e770e773120"/>
 <approved hash="18,29,335308e608e63353"/>
-<approved hash="18,29,2209199c199c2209"/>
+<approved hash="18,29,44677bca7bca4467"/>
 <approved hash="18,29,35c21569156935c2"/>
-<approved hash="18,29,2f861f2d1f2d2f86"/>
-<approved hash="18,29,287517d817d82875"/>
-<approved hash="18,29,2d1712ba12ba2d17"/>
 <approved hash="18,29,2ae4104b104b2ae4"/>
+<approved hash="18,29,287517d817d82875"/>
+<approved hash="18,29,595a66e166e1595a"/>
+<approved hash="18,29,272b647e647e272b"/>
+<approved hash="18,29,2f861f2d1f2d2f86"/>
+<approved hash="18,29,2d1712ba12ba2d17"/>
+<approved hash="18,29,24b81a0f1a0f24b8"/>
+<approved hash="18,29,2209199c199c2209"/>
 <approved hash="18,29,d38a5e977e95f388"/>
 <approved hash="18,29,a4882f950fab84b6"/>
 <approved hash="18,29,35b6a0ab80a815b5"/>
@@ -5700,33 +5704,33 @@ Created by Nick Molo for the Purdue IEEE ROV Team
 <approved hash="18,29,76fa5183d183f6fa"/>
 <approved hash="18,29,60bc7a45fa45e0bc"/>
 <approved hash="18,29,b20af051b1a97182"/>
-<approved hash="18,29,1733fb5efb5f1732"/>
-<approved hash="18,29,10c0f9aff9ae10c1"/>
-<approved hash="18,29,15a2f6c9f6c815a3"/>
-<approved hash="18,29,1e9cf3ebf3ea1e9d"/>
-<approved hash="18,29,182df078f079182c"/>
-<approved hash="18,29,1251fe3cfe3d1250"/>
-<approved hash="18,29,0495e5e0e5e10494"/>
-<approved hash="18,29,03bbe8c6e8c703ba"/>
-<approved hash="18,29,0b04e793e7920b05"/>
-<approved hash="18,29,1d0f8d9a8d9b1d0e"/>
-<approved hash="18,29,0fe6fc8dfc8c0fe7"/>
-<approved hash="18,29,0977e102e1030976"/>
-<approved hash="18,29,637e8f058f04637f"/>
-<approved hash="18,29,76f69b9d9b9c76f7"/>
-<approved hash="18,29,7087981298137086"/>
 <approved hash="18,29,062aea71ea70062b"/>
-<approved hash="18,29,7e43922e922f7e42"/>
-<approved hash="18,29,7bd090bf90be7bd1"/>
-<approved hash="18,29,7561950c950d7560"/>
+<approved hash="18,29,6fa59cf09cf16fa4"/>
+<approved hash="18,29,637e8f058f04637f"/>
+<approved hash="18,29,6acb87d687d76aca"/>
 <approved hash="18,29,61e98ab48ab561e8"/>
 <approved hash="18,29,6458842784266459"/>
 <approved hash="18,29,72149e639e627215"/>
+<approved hash="18,29,7e43922e922f7e42"/>
+<approved hash="18,29,7087981298137086"/>
+<approved hash="18,29,7bd090bf90be7bd1"/>
+<approved hash="18,29,76f69b9d9b9c76f7"/>
+<approved hash="18,29,7561950c950d7560"/>
 <approved hash="18,29,693a81418140693b"/>
-<approved hash="18,29,6fa59cf09cf16fa4"/>
-<approved hash="18,29,6acb87d687d76aca"/>
-<approved hash="18,29,3912c1f481c8792e"/>
+<approved hash="18,29,0fe6fc8dfc8c0fe7"/>
+<approved hash="18,29,1251fe3cfe3d1250"/>
+<approved hash="18,29,0977e102e1030976"/>
+<approved hash="18,29,1d0f8d9a8d9b1d0e"/>
+<approved hash="18,29,03bbe8c6e8c703ba"/>
+<approved hash="18,29,0b04e793e7920b05"/>
+<approved hash="18,29,0495e5e0e5e10494"/>
+<approved hash="18,29,1e9cf3ebf3ea1e9d"/>
+<approved hash="18,29,15a2f6c9f6c815a3"/>
+<approved hash="18,29,182df078f079182c"/>
+<approved hash="18,29,1733fb5efb5f1732"/>
+<approved hash="18,29,10c0f9aff9ae10c1"/>
 <approved hash="18,29,ff390782c7be3f05"/>
+<approved hash="18,29,3912c1f481c8792e"/>
 <approved hash="18,30,b5b1e7b667b635b1"/>
 <approved hash="18,30,a073c9f449f42073"/>
 <approved hash="18,30,1622372ab72a9622"/>
