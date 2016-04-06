@@ -9627,7 +9627,7 @@ W = angled&lt;p&gt;
 <label x="589.28" y="297.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PB10" class="0">
+<net name="USART3_TX" class="0">
 <segment>
 <pinref part="U$1" gate="G$2" pin="PB10"/>
 <wire x1="439.42" y1="302.26" x2="457.2" y2="302.26" width="0.1524" layer="91"/>
@@ -9721,6 +9721,13 @@ W = angled&lt;p&gt;
 <pinref part="U$1" gate="G$1" pin="PA4"/>
 <wire x1="439.42" y1="490.22" x2="452.12" y2="490.22" width="0.1524" layer="91"/>
 <label x="441.96" y="490.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USART3_RX" class="0">
+<segment>
+<pinref part="U$1" gate="G$2" pin="PB11"/>
+<wire x1="439.42" y1="297.18" x2="457.2" y2="297.18" width="0.1524" layer="91"/>
+<label x="441.96" y="297.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

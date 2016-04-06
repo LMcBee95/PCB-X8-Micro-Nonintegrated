@@ -8598,6 +8598,8 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="U$8" library="Connectors" deviceset="HSC8PART-60" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="JP1" library="Connectors" deviceset="M07" device=""/>
+<part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8702,6 +8704,8 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="U$8" gate="G$3" x="683.26" y="134.62"/>
 <instance part="P+1" gate="1" x="441.96" y="147.32"/>
 <instance part="JP1" gate="G$1" x="472.44" y="187.96"/>
+<instance part="GND4" gate="1" x="462.28" y="340.36"/>
+<instance part="+3V12" gate="G$1" x="462.28" y="467.36"/>
 </instances>
 <busses>
 </busses>
@@ -8911,6 +8915,12 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="477.52" y1="193.04" x2="485.14" y2="193.04" width="0.1524" layer="91"/>
 <label x="477.52" y="193.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$2" pin="PB2"/>
+<wire x1="439.42" y1="342.9" x2="462.28" y2="342.9" width="0.1524" layer="91"/>
+<label x="441.96" y="342.9" size="1.778" layer="95"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -9060,6 +9070,12 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="JP1" gate="G$1" pin="6"/>
 <wire x1="477.52" y1="195.58" x2="485.14" y2="195.58" width="0.1524" layer="91"/>
 <label x="477.52" y="195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PA9"/>
+<wire x1="439.42" y1="464.82" x2="462.28" y2="464.82" width="0.1524" layer="91"/>
+<label x="441.96" y="464.82" size="1.778" layer="95"/>
+<pinref part="+3V12" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -9661,11 +9677,6 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="414.02" y1="246.38" x2="406.4" y2="246.38" width="0.1524" layer="91"/>
 <label x="406.4" y="246.38" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="PA9"/>
-<wire x1="439.42" y1="464.82" x2="452.12" y2="464.82" width="0.1524" layer="91"/>
-<label x="441.96" y="464.82" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PC7" class="0">
 <segment>
@@ -9999,13 +10010,6 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="U$1" gate="G$2" pin="PB15"/>
 <wire x1="439.42" y1="276.86" x2="457.2" y2="276.86" width="0.1524" layer="91"/>
 <label x="441.96" y="276.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PB2" class="0">
-<segment>
-<pinref part="U$1" gate="G$2" pin="PB2"/>
-<wire x1="439.42" y1="342.9" x2="454.66" y2="342.9" width="0.1524" layer="91"/>
-<label x="441.96" y="342.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB1" class="0">
